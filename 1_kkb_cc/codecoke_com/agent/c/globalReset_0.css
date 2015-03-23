@@ -1,0 +1,253 @@
+
+
+/*reset version 0*/
+body, div, dl, dt, dd, ul, ol, li,
+h1, h2, h3, h4, h5, h6, pre, code,
+form, fieldset, legend, input, button,
+textarea, p, blockquote, th, td {margin: 0;	padding: 0;}
+fieldset, img {border: 0;}
+/* remember to define focus styles! */
+:focus {	outline: 0;}
+address, caption, cite, code, dfn,em, th, var, optgroup {font-style: normal;	font-weight: normal;}
+abbr, acronym {border: 0;	font-variant: normal;}
+small { font-size: 12px; } /* 小于 12px 的中文很难阅读，让 small 正常化 */
+
+input, button, textarea,select, optgroup, option {font-family:inherit;font-size: inherit;font-style: inherit;font-weight: inherit;margin:inherit;}
+
+address, cite, dfn, em, var { font-style: normal; } /* 将斜体扶正 */
+
+code, kbd, pre, samp { font-family: courier new, courier, monospace; ont-size: 100%;} /* 统一等宽字体 */
+pre{ 
+	white-space:pre-wrap;/*css-3*/ 
+	white-space:-moz-pre-wrap;/*Mozilla,since1999*/ 
+	white-space:-pre-wrap;/*Opera4-6*/ 
+	white-space:-o-pre-wrap;/*Opera7*/ 
+	word-wrap:break-word;/*InternetExplorer5.5+*/
+	padding:10px;
+	line-height:1.2;
+} 
+
+
+/*@purpose To enable resizing for IE */
+/*@branch For IE6-Win, IE7-Win */
+/*input, button, textarea, select {*font-size: 100%;}
+input {font-size:11px;}*/
+body {line-height: 1.5;}
+ol, ul {list-style: none;}
+/* tables still need 'cellspacing="0"' in the markup */
+table {border-collapse: collapse;	border-spacing: 0;margin:0 auto;}
+caption, th {text-align: left;}
+
+sup, sub {	font-size: 100%;	vertical-align: baseline;}
+/* remember to highlight anchors and inserts somehow! */
+:link, :visited , ins {text-decoration: none;}
+blockquote, q {quotes: none;}
+blockquote:before, blockquote:after,
+q:before, q:after {content: '';content: none;}
+
+
+h1 { font-size: 2em;line-height:1.5em;} 
+h2 { font-size: 1.5em; line-height:1.5em;} 
+h3 { font-size: 1.5em; line-height:1.2em;} 
+h4 { font-size: 1.4em; line-height:1.2em;}
+h5 { font-size: 1.2em;line-height:1.2em;}
+h6 { font-size: 1em;} 
+h1, h2, h3, h4, h5, h6 {font-weight: normal;}
+
+/** 重置表格元素 **/
+table { border-collapse: collapse; border-spacing: 0; }
+
+button {padding:0 5px;}
+
+/*内外间距*/
+.pd5{padding:5px;} .pd10 {padding:10px;} .pd15{padding:15px;} .pd1em{padding:1em;} .pd2em{padding:2em;}
+
+.pdT5{padding-top:5px;} .pdT10 {padding-top:10px;} .pdT15{padding-top:15px;}
+.pdT1em{padding-top:1em;} .pdT2em{padding-top:1em;}				
+
+.pdR5{padding-right:5px;} .pdR10 {padding-right:10px;} .pdR15{padding-right:15px;} 
+.pdR1em{padding-right:1em;} .pdR2em{padding-right:2em;}
+
+.pdLR5{padding-right:5px;padding-left:5px;}
+
+.pdB5{padding-bottom:5px;} .pdB10 {padding-bottom:10px;} .pdB15{padding-bottom:15px;}
+.pdB1em{padding-bottom:1em;} .pdB2em{padding-bottom:2em;}
+
+.pdL5{padding-left:5px;} .pdL10 {padding-left:10px;} .pdL15{padding-left:15px;} .pdL1em{padding-left:1em;} .pdL2em{padding-left:2em;}
+
+.mr0{margin:0;}	.mr1{margin:1px;} .mr2 {margin:2px;}.mr5{margin:5px;} .mr10{margin:10px;}
+.mr15{margin:15px;} .mr1em {margin:1em;} .mr2em {margin:2em;}
+
+.mrT5{margin-top:5px;}			.mrT10 {margin-top:10px;}			.mrT15{margin-top:15px;}				.mrT1em{margin-top:1em;}			.mrT2em{margin-top:2em;}
+.mrL5{margin-left:5px;}			.mrL10 {margin-left:10px;}			.mrL15{margin-left:15px;}				.mrL1em{margin-left:1em;}			.mrL2em{margin-left:2em;}
+.mrL50{margin-left:50px;}
+.mrL70{margin-left:70px;}
+.mrL80{margin-left:80px;}
+.mrL90{margin-left:90px;}
+
+.mrLR5{margin-right:5px;margin-left:5px;}
+.mrR5{margin-right:5px;}			.mrR10 {margin-right:10px;}			.mrR15{margin-right:15px;}				.mrR1em{margin-right:1em;}		.mrR2em{margin-right:2em;}
+.mrB5{margin-bottom:5px;}		.mrB10 {margin-bottom:10px;}		.mrB15{margin-bottom:15px;}			.mrB1em{margin-bottom:1em;}	.mrB2em{margin-bottom:2em;}
+
+.mrR160{margin-right:160px;}
+
+/*---FontColor-c+Color--*/
+.cBlue,		.cBlue a,		.cBlue a:visited,			a.cBlue,			a.cBlue:visited {color:#0075BE;}
+.cGreen,		.cGreen a,		.cGreen a:visited,		a.cGreen,		a.cGreen:visited {color:#66CC00;}
+.cRed,		.cRed a,			.cRed a:visited,			a.cRed,			a.cRed:visited {color:red;}
+.cWhite,		.cWhite a,		.cWhite a:visited,		a.cWhite,		a.cWhite:visited {color:#fff;}
+.cBlack,		.cBlack a,		.cBlack a:visited,			a.cBlack,		a.cBlack:visited {color:#000;}
+.cGray,		.cGray a,		.cGray a:visited,			a.cGray,			a.cGray:visited {color:#aaa;}
+.cGolden,	.cGolden a,	 	.cGolden a:visited,		a.cGolden,		a.cGolden:visited {color:#A4935A;}
+.cYellow,	.cYellow a,		.cYellow a:visited,		a.cYellow,		a.cYellow:visited {color:#DBAF31;}
+.cOrange,	.cOrange a,	 	.cOrange a:visited,		a.cOrange,		a.cOrange:visited {color:#ffa002;}
+.cPurple,	.cPurple a,	 	.cPurple a:visited,		a.cPurple,		a.cPurple:visited {color:#8e26a8;}
+
+/* 通用空白间距 */
+.blank1{height:1px;}		.blank2{height:2px;}
+.blank3{ height:3px;}		.blank5{ height:5px;}
+.blank6{ height:6px;}		.blank9{ height:9px;}
+.blank10{ height:10px;}	.blank12{ height:12px;}
+.blank15{ height:15px;}	.blank20{ height:20px;}
+
+/*.blank1, .blank2, .blank3, .blank5, .blank6,.blank9, .blank10, .blank12 {font-size:1px;overflow:hidden;}*/
+
+.blank1, .blank2, .blank3, .blank5, .blank6,.blank9, .blank10, .blank12,.blank15, .blank20 {font-size:1px;display:block;overflow:hidden;line-height:1px;}
+
+.cHand,a.cHand 
+,.cLink,a.cLink
+,.cBtn,a.cBtn{cursor:pointer;}
+
+.cLink,.cLink a,a.cLink {text-decoration:underline;margin-right:3px;}
+.cHelp,.cHelp a, a.cHelp {cursor:help;}
+
+.linkNow {
+	text-decoration:none;
+}
+
+/*text align*/
+.txtC {text-align:center;}	 .txtR {text-align:right;}	.txtL {text-align:left;}
+
+.iL,.iL2,.iL3,.iL4 { float:left;}			
+.iR,.iR2,.iR3,.iR4 { float:right;}
+.noFloat {float:none;}
+
+.iCF:after { 
+    content: '_'; 
+    display: block; 
+    height: 0px; 
+	font-size:0px;
+	line-height:0px;
+    visibility: hidden; 
+}
+.iCF {
+	display:inline-block;
+	height: 0px; 
+	font-size:0px;
+	line-height:0px;
+	clear: both; 
+}
+/* Hides from IE-mac \*/* html .iCF {height: 1%;} .iCF {display: block;} /* End hide from IE-mac */
+.bd0{border-width:0;}
+.bd1 {border:1px solid #bababa;}
+.bdB1 {border-bottom:1px solid #bababa;}
+.bdL1 {border-left:1px solid #eee;}
+.bdR1 {border-right:1px solid #eee;}
+.bdT1 {border-right:1px solid #eee;}
+.bd5 {border:1px solid #fff;}
+
+.bdFFF {border-color:#fff;}
+.bdEEE {border-color:#eee;}
+.bdBBB {border-color:#bbb;}
+.bd000 {border-color:#000;}
+.bdRed {border-color:red;}
+
+.iC {clear:both;}	.iCL{clear:left;}	.iCR{clear:right;} .iCN {clear:none;}
+.iBlock {display:block;}	.iSkip {display:none;}	.iShow {display:normal;} 
+
+.iseeY {visibility:visible;} .iseeH{visibility:hidden;} .iseeI{visibility:inherit;}
+
+.ipopY {position :absolute } .ipopN {position :static;}  .ipopR{position:relative;}
+
+.iLine, .iLine li{display:inline;}
+
+/* 字体属性 定义规则，小写f加属性名称  */
+.fB, a.fB,.fN .fB{font-weight: bold;}		.fI, a.fI{font-style: italic;}	.fN, a.fN, .fB .fN{font-weight:normal;font-style:normal;}
+
+.fH14 {font-family:"黑体",serif,sans-serif;font-size:14px;font-weight:normal;}
+.fH18 {font-family:"黑体",serif,sans-serif;font-size:18px;font-weight:normal;}
+
+/*常用背景*/
+
+.bgFFF {background-color:#fff;}
+.bgRed {background-color:red;}
+.bg000 {background-color:#000;}
+.bgEEE {background-color:#eee;}
+.bgLightRed {background-color:#ffdfdf;}
+.bgRedLight {background-color:#ffdfdf;}
+.bgGreenLight {background-color:#daf3e1;}
+
+/* 基本字大小 */
+.f10{font-size:10px;}	.f11{font-size:11px;}
+.f12{font-size:12px;}	.f14{font-size:14px;}	.f16{font-size:16px;}	
+.f18{font-size:18px;}	.f20{font-size:20px;}	.f24{font-size:24px;}
+
+/* 基础页面行高 */
+.lh18{line-height:18px}	.lh20{line-height:20px}
+.lh22{line-height:22px}	.lh24{line-height:24px}
+
+/*常用宽度*/
+
+.w_20 {width:20px;}
+.w_30 {width:30px;}
+.w_40 {width:40px;}
+.h_40 {height:40px;}
+.w_50 {width:50px;}
+.h_50 {height:50px;}
+.wh_50{width:50px;height:50px;}
+.w_60 {width:60px;}
+.w_70 {width:70px;}
+.h_70 {height:70px;}
+.wh_70{width:70px;height:70px;}
+.w_80 {width:80px;}
+.w_90 {width:90px;}
+.w_100 {width:100px;}
+.w_120 {width:120px;}
+.w_130 {width:130px;}
+.w_150 {width:150px;}
+.w_220 {width:220px;}
+.w_250 {width:250px;}
+.w_260 {width:260px;}
+.w_280 {width:280px;}
+
+.w_p19 {width:19%;}
+.w_p24 {width:24%;}
+.w_p29 {width:29%;}
+.w_p33 {width:33%;}
+.w_p30 {width:30%;}
+.w_p45 {width:45%;}
+.w_p49 {width:49%;}
+.w_p99 {width:99%;}
+.w_p95 {width:95%;}
+.w_p100 {width:100%;}
+
+/*==pages===*/
+
+.G_pagesNavLink {
+	
+}
+.G_pagesNavLink span.iL {
+	margin-right:10px;
+}
+.G_pagesNavLink a
+,.G_pagesNavLink strong.navNow {
+	display:inline-block;
+	border:1px solid #bababa;
+	margin-right:3px;
+	padding:0 3px;
+}
+.G_pagesNavLink a:hover
+,.G_pagesNavLink strong.navNow{
+	background-color:#aaa;
+	color:#fff;
+}

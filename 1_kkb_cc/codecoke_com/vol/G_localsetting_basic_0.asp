@@ -1,0 +1,13 @@
+<%
+G_localsetting.basic={
+	'gtpath':{
+		'agent':'/codecoke_com/api/inget/'
+		,'filedb':'/codecoke_com/filedb/'
+		,'runerr':'/codecoke_com/err/'
+		,'jsload':'/codecoke_com/insiteapi/'
+	}
+	,'subkeys':{
+		'iEscapeCookiekey':'tI7s2pwo0SLEmGdfh8bNBquaeW1ZgilMyjrOHQv6Vz4Tc3n5U9RXJCPYFDkKAx'
+	}
+};
+%>

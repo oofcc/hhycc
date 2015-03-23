@@ -1,0 +1,82 @@
+@import url('/codecoke_com/agent/c/globalSite_0.css');
+
+#iHeadtop {
+	background-color:#aac6db;
+}
+#iLogo {
+	line-height:40px;
+	margin-right:10px;
+}
+#iLogo a {
+	display:block;
+	font-size:20px;
+	color:#fff;
+	margin:0 10px;
+	font-family:Georgia, serif,sans-serif;
+}
+#iHeadtopmax {
+	padding-top:8px;
+	line-height:30px;
+}
+#iHeadmid {
+	background: #aac6db url(/codecoke_com/agent/i/navbg-blue_split_0.png) left -335px no-repeat;
+	line-height:35px;
+	padding-left:10px;
+	border-bottom:0 ;
+}
+#iHeadmidtop > .oo_r {
+	height:35px;
+	width:10px;
+	background: #aac6db url(/codecoke_com/agent/i/navbg-blue_split_0.png) right -400px no-repeat;
+}
+.acTag_dl_fl {
+	background: url(/codecoke_com/agent/i/navbg-blue_split_0.png) left 0px repeat-x;
+	height:35px;
+	padding-left:10px;
+}
+.acTag_dl_fl dl dt {
+	-background: #000 url(/codecoke_com/agent/i/navbg-blue_split_0.png) left 0px repeat-x;
+	border-right-color:#a5b5c4;
+	background-color:transparent;
+	border-left-color:#193e61;
+	padding:0 20px;
+	
+}
+.acTag_dl_fl dl dt.navNow {
+	background: url(/codecoke_com/agent/i/navbg-blue_split_0.png) left -140px repeat-x;
+}
+.acTag_dl_fl dl dt.navNow a {
+	color:#f2d355;
+}
+.acTag_dl_fl dl.iShow dt {
+	background: transparent url(/codecoke_com/agent/i/navbg-blue_split_0.png) left -70px repeat-x;
+}
+.acTag_dl_fl dl dt a {
+	color:#fff;
+	display:block;
+}
+#iHeadmid .acTag_dl_fl dl dd {
+	line-height:1.8;
+	border-width:0px;
+	background: #376187 url(/codecoke_com/agent/i/navbg-blue_split_0.png) left -210px repeat-x;
+	padding:5px 0 0;
+}
+#iHeadmid .acTag_dl_fl dl dd ul {
+	background-color:#376187;
+	padding-bottom:5px;
+}
+#iHeadmid .acTag_dl_fl dl dd ul li a {
+	display:block;
+	margin-top:5px;
+	color:#fff;
+	padding:0 10px;
+}
+#iHeadmid .acTag_dl_fl dl dd ul li a:hover {
+	background-color:#5f83a3;
+	text-decoration:none;
+}
+#iHeadFoot {
+	padding-top:5px;
+	background: #fff url(/codecoke_com/agent/i/navbg-blue_split_0.png) left -260px repeat-x;
+	min-height:25px;
+}
