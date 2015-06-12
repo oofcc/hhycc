@@ -16,8 +16,19 @@ hehe.router = express.Router();
 /****
  * 系统管理主页面
  */
+hehe.sitehome = require('./controllers/sitehome');
+hehe.router.get('/', hehe.sitehome.home);
 hehe.main=require('./controllers/main');
 hehe.router.get('/main',hehe.main.main);
+//进入主题清单页面
+hehe.router.get('/totopicList',hehe.topic.topicList);
 //hehe.router.get('/', hehe.site.index);
-hehe.router.get('/', hehe.topic.topicList);
+//hehe.router.get('/', hehe.topic.topicList);
+
+/**
+ * 公用方法
+ */
+hehe.pbc=require('./controllers/pbc');
+hehe.routes.get('',hehe.pbc.pbcjs);
+hehe.routes.get('',hehe.pbc.pgccss);
 module.exports = hehe.router;
