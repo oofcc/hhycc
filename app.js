@@ -14,7 +14,7 @@ var bodyParser = require('body-parser');
 var routesconfig = require('./routes');
 //var anuglar = require('./app/components/angular-route/angular-route');
 var partials =require('express-partials');//这里express3.*后需要添加
-var ejs = require('ejs');
+//var ejs = require('ejs');
 //var routes = require('./routes/index');
 //var users = require('./routes/users');
 var app = express();
@@ -31,9 +31,9 @@ app.engine('html', require('ejs-mate'));
 app.locals._layoutFile = 'layout.html';
 app.locals._layoutFile = 'emptyLayout.html';*/
 
-app.set('views', path.join(__dirname, 'public/views'));
-app.engine('.html', ejs.__express);
-app.set('view engine', '.html'); //修改文件扩展名ejs为html*/
+//app.set('views', path.join(__dirname, 'public/views'));
+//app.engine('.html', ejs.__express);
+//app.set('view engine', '.html'); //修改文件扩展名ejs为html*/
 
 app.use(partials());//这里express3.*后需要添加
 
